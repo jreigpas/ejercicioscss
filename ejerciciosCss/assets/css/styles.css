@@ -1,7 +1,7 @@
 /* Descendant Selector */
-/* div p {
+div p {
   background-color: yellow;
-}  */
+} 
 
 /*child selector*/
 /* div > p {
@@ -14,6 +14,6 @@
 } */
 
 /*siblin selector*/
-div ~ p {
+/* div ~ p {
   background-color: blueviolet;
-}
+} */
