@@ -1,19 +1,14 @@
-/* Descendant Selector */
-div p {
+p {
+  display: none;
   background-color: yellow;
-} 
+  padding: 20px;
+}
 
-/*child selector*/
-/* div > p {
-  background-color: blue;
-} */
+div:hover p {
+  display: block;
+}
 
-/*adyacent selector*/
-/* div + p {
-  background-color: green;
-} */
-
-/*siblin selector*/
-/* div ~ p {
-  background-color: blueviolet;
-} */
+.miClase::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
