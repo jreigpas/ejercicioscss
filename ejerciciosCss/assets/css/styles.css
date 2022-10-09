@@ -1,25 +1,19 @@
-* {
-  text-align: center;
-  color: blue;
-}
+/* Descendant Selector */
+/* div p {
+  background-color: yellow;
+}  */
 
-h1 {
-  text-align: center;
-  color: red;
-}
-
-h2 {
-  text-align: center;
-  color: red;
-}
-
-p {
-  text-align: center;
-  color: red;
-}
-
-
-/* h1, h2, p {
-  text-align: center;
-  color: red;
+/*child selector*/
+/* div > p {
+  background-color: blue;
 } */
+
+/*adyacent selector*/
+/* div + p {
+  background-color: green;
+} */
+
+/*siblin selector*/
+div ~ p {
+  background-color: blueviolet;
+}
