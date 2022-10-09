@@ -1,14 +1,8 @@
-p {
-  display: none;
-  background-color: yellow;
-  padding: 20px;
-}
-
-div:hover p {
-  display: block;
-}
-
-.miClase::first-line {
-  color: #ff0000;
-  font-variant: small-caps;
+div {
+  background-color: blue;
+  color: white;
+  text-align: justify;/* left,center, justify*/
+  text-decoration: underline;
+  /*text-indent: 50px;*/
+  /*letter-spacing: -2px;*/
 }
