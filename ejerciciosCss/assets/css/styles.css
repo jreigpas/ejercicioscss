@@ -1,38 +1,15 @@
-.flex-container {
-  display: flex;
-  background-color: green;
-  /*flex-direction: column;*/
-  /*flex-direction: column-reverse;*/
-  /*flex-direction: row;*/
-  /*flex-direction: row-reverse;*/
-  /*flex-wrap: wrap;*/
-  /*flex-wrap: nowrap;*/
-  /*flex-wrap: wrap-reverse;*/
-  /*justify-content: center;*/
-  /*justify-content: flex-start;*/
-  /*justify-content: flex-end;*/
-  /*justify-content: space-around;*/
-  /*justify-content: space-between;*/
-  /*align-items: center;*/
-  /*align-items: flex-start;*/
+div {
+  border: 1px solid black;
+  /* margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px; */
+  background-color: greenyellow;
+  margin: 25px 50px 75px 100px;
+
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 
 }
-
-.flex-container > div {
-  background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
-  font-size: 20px;
-}
-
-/* .flex-container {
-  display: flex;
-  flex-direction: row;
-} */
-
-/* Responsive layout - makes a one column layout instead of a two-column layout */
-/* @media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-  }
-} */
